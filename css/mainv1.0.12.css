@@ -73,6 +73,7 @@ textarea {
     margin: 0 auto;
     padding: 0;
     position: relative;
+    height: 100%;
 }
 
 .conteudo a {
@@ -98,6 +99,10 @@ textarea {
 .secao {
     padding: 20px 0;
     border-bottom: 1px solid #c3dbf2;
+}
+
+#contact {
+    min-height: 100%;
 }
 
 input, textarea {
@@ -422,32 +427,6 @@ nav.menu-superior-mobile a {
     margin-bottom: 5px;
 }
 
-#form_contact {
-    width: 95%;
-}
-
-#form_contact .campo {
-    margin-bottom: 5%;
-}
-
-#form_contact .campo input, textarea {
-    width: 100%;
-}
-
-#form_contact .campo textarea {
-    height: 175px; 
-    resize: none;
-}
-
-#enviando {
-    background-image: url(../img/spinner.gif);
-    background-position: left middle;
-    background-repeat: no-repeat;
-    padding-left: 40px;
-    height: 32px;
-    line-height: 32px;
-}
-
 #rodape {
     text-align: center;
     color: #999;
@@ -541,10 +520,6 @@ LARGO
 
     .bandeiras .idioma {
         margin-left: 10px;
-    }
-
-    #form_contact {
-        width: 60%;
     }
 }
 
