@@ -1,0 +1,495 @@
+<!doctype html>
+<html class='no-js' lang=''>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <title>João Paulo Ribeiro</title>
+        <meta name='description' content=''>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+       
+        <link rel='apple-touch-icon' sizes='57x57' href='../img/favicon/apple-touch-icon-57x57.png'>
+        <link rel='apple-touch-icon' sizes='60x60' href='../img/favicon/apple-touch-icon-60x60.png'>
+        <link rel='apple-touch-icon' sizes='72x72' href='../img/favicon/apple-touch-icon-72x72.png'>
+        <link rel='apple-touch-icon' sizes='76x76' href='../img/favicon/apple-touch-icon-76x76.png'>
+        <link rel='apple-touch-icon' sizes='114x114' href='../img/favicon/apple-touch-icon-114x114.png'>
+        <link rel='apple-touch-icon' sizes='120x120' href='../img/favicon/apple-touch-icon-120x120.png'>
+        <link rel='apple-touch-icon' sizes='144x144' href='../img/favicon/apple-touch-icon-144x144.png'>
+        <link rel='apple-touch-icon' sizes='152x152' href='../img/favicon/apple-touch-icon-152x152.png'>
+        <link rel='apple-touch-icon' sizes='180x180' href='../img/favicon/apple-touch-icon-180x180.png'>
+        <link rel='icon' type='image/png' href='../img/favicon/favicon-32x32.png' sizes='32x32'>
+        <link rel='icon' type='image/png' href='../img/favicon/android-chrome-192x192.png' sizes='192x192'>
+        <link rel='icon' type='image/png' href='../img/favicon/favicon-96x96.png' sizes='96x96'>
+        <link rel='icon' type='image/png' href='../img/favicon/favicon-16x16.png' sizes='16x16'>
+        <link rel='manifest' href='../img/favicon/manifest.json'>
+        <link rel='mask-icon' href='../img/favicon/safari-pinned-tab.svg' color='#002140'>
+        <link rel='shortcut icon' href='../img/favicon/favicon.ico'>
+        <meta name='msapplication-TileColor' content='#002140'>
+        <meta name='msapplication-TileImage' content='../img/favicon/mstile-144x144.png'>
+        <meta name='msapplication-config' content='../img/favicon/browserconfig.xml'>
+        <meta name='theme-color' content='#002140'>
+
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+        <link rel='stylesheet' href='../css/normalize.min.css'>
+        <link rel='stylesheet' href='../css/mainv1.0.12.css'>
+        <link rel='stylesheet' href='../css/colorbox.css' />
+
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+        <script>window.jQuery || document.write('<script src=\'../js/vendor/jquery-1.11.2.min.js\'><\/script>')</script>
+        <script src='../js/vendor/jquery.colorbox-min.js'></script>
+
+        <script src='../js/plugins.js'></script>
+        <script src='../js/mainv1.0.12.js'></script>
+        <script src='../js/validacao.js'></script>
+
+        <script type="text/javascript">
+            /**
+             * Returns a random integer between min (inclusive) and max (inclusive)
+             * Using Math.round() will give you a non-uniform distribution!
+             min = 1, max = 2
+             */
+            var bgNumber = Math.floor(Math.random() * (1 - 2 + 1)) + 1;
+
+            var bgNumber = (bgNumber < 10) ? ("0" + bgNumber) : bgNumber;
+
+            $(function () {
+                $('#bg_horizontal').attr('src', '../img/bg' + bgNumber + 'h.jpg');
+                $('#bg_vertical').attr('src', '../img/bg' + bgNumber + 'v.jpg');
+
+                $('#ano_rodape').html(new Date().getFullYear());
+            });
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class='browserupgrade'>Você está usando um navegador <strong>ultrapassado</strong>. Por favor <a href='http://browsehappy.com/'>atualize seu navegador</a> para melhorar a experiência.</p>
+        <![endif]-->
+
+        <div class='wrapper-inicial'><div class='wrapper-principal'>
+                <div class='bloco1'>
+                    <a href='#' class='link-logo mandar_pro_topo'><img src='../img/logo.png' /><div class='habilidades-mobile'>Desenvolvedor web full stack<br/>Java, Ruby, PHP; Javascript, CSS</div></a>
+                </div><div class='bloco2'>
+                    <nav class='menu'>
+                        <ul>
+                            <li><a href='#' class='link_navegacao' data-link='about'>Sobre</a></li>
+                            <li><a href='#' class='link_navegacao' data-link='resume'>Currículo</a></li>
+                            <li><a href='#' class='link_navegacao' data-link='experience'>Experiência</a></li>
+                            <li><a href='#' class='link_navegacao' data-link='contact'>Contato</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class='table-split'></div>
+
+                    <div class='habilidades'>
+                        <p>
+                            Desenvolvedor web full stack<br/>Java, Ruby, PHP; Javascript, CSS
+                        </p>
+                    </div>
+
+                    <div class='table-split'></div>
+
+                    <div class='sociais'>
+                        <div class='pessoais'>
+                            <img src='../img/pin.png'/>Campina Grande - PB, Brasil<br/>
+                            <img src='../img/phone.png'/>+55 83 98199 5626
+                        </div>
+                        <div class='redes-sociais'>
+                            <a href='mailto:joao@jpribeiro.com.br' target='_blank' class='com_hover'>
+                                <img src='../img/email.png'/>
+                            </a>
+                            <a href='https://www.twitter.com/joaopribs' target='_blank' class='com_hover'>
+                                <img src='../img/twitter.png'/>
+                            </a>
+                            <a href='https://www.linkedin.com/in/joaopribeiro' target='_blank' class='com_hover'>
+                                <img src='../img/linkedin.png'/>
+                            </a>
+                            <a href='http://joaopribs.wordpress.com' target='_blank' class='com_hover'>
+                                <img src='../img/wordpress.png'/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='idiomas'>
+                <a href='../br/' class='idioma'>
+                    <img src='../img/brg.png' />
+                </a>
+                <a href='../' class='idioma'>
+                    <img src='../img/usg.png' />
+                </a>
+            </div>
+
+            <img src='' class='bg' id='bg_horizontal' />
+            <img src='' class='bg' id='bg_vertical' />
+        </div>
+
+        <div class='container-menu-superior'>
+            <nav class='menu-superior'>
+                <ul>
+                    <li>
+                        <a href='#' class='mandar_pro_topo'>
+                            <img src='../img/inline.png' />
+                        </a>
+                    </li>
+                    <li><a href='#' class='link_topo link_navegacao' data-link='about'>Sobre</a></li>
+                    <li><a href='#' class='link_topo link_navegacao' data-link='resume'>Currículo</a></li>
+                    <li><a href='#' class='link_topo link_navegacao' data-link='experience'>Experiência</a></li>
+                    <li><a href='#' class='link_topo link_navegacao' data-link='contact'>Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class='bandeiras'><a href='/br/' class='idioma'><img src='../img/br.png' /></a><a href='/' class='idioma'><img src='../img/us.png' /></a></div>
+        </div>
+
+        <div class='container-menu-superior-mobile'>
+            <nav class='menu-superior-mobile'>
+                <a href='#' class='link_topo link_navegacao' data-link='about'>Sobre</a>
+                <a href='#' class='link_topo link_navegacao' data-link='resume'>Currículo</a>
+                <a href='#' class='link_topo link_navegacao' data-link='experience'>Experiência</a>
+                <a href='#' class='link_topo link_navegacao' data-link='contact'>Contato</a>
+            </nav>
+            <div class='logo-e-idiomas'>
+                <a href='#' class='mandar_pro_topo'>
+                    <img src='../img/inline.png' class='logo-inline' />
+                </a>
+                <a href='../br/' class='idioma'>
+                    <img src='../img/br.png' />
+                </a>
+                <a href='../' class='idioma'>
+                    <img src='../img/us.png' />
+                </a>
+            </div>
+        </div>
+
+        <div class='conteudo'>
+
+<!-- 
+------------------------------
+ABOUT 
+------------------------------
+--> 
+
+<div class="secao" id="about">
+    <h1>Hello world</h1>
+
+    Olá! Meu nome é João Paulo, e sou bacharel em <a href="http://dsc.ufcg.edu.br" target="_blank">Ciência da Computação</a>, na <a href="http://www.ufcg.edu.br" target="_blank">Universidade Federal de Campina Grande (UFCG)</a>, graduado em 2012.
+    <p />
+    Minhas principais áreas de interesse são:
+    <ul>
+        <li>Desenvolvimento para web (front e back end)</li>
+        <li>Sistemas de Informação</li>
+        <li>Bancos de dados</li>
+    </ul>
+    Mas eu sou interessado em tudo que gira em torno do belo mundo da tecnologia. Eu também sou baixista (sou muito bom) e gosto de tirar fotografias (não sou tão bom).
+    <p/>
+    Nesse site, exponho informações relevantes sobre minhas competências profissionais. Então, por favor, sinta-se à vontade para navegar e conhecer um pouco sobre mim. 
+    E <a href="#" class="link_navegacao" data-link="contact">entre em contato</a> a qualquer hora que quiser, prometo que sou um cara legal!
+
+    <br style="clear: both;"/>
+</div>
+
+<!-- 
+------------------------------
+RESUME 
+------------------------------
+--> 
+
+<div class="secao" id="resume">
+    <h1>Currículo</h1>
+
+    <a href="../arq/curriculo.pdf" target="_blank"><img src="../img/pdf.png" style="margin-right: 5px;" />Ver PDF</a>
+
+    <p/>
+    <h2>Educação</h2>
+    <ul>
+        <li>
+            Bsc. em Ciência da Computação, Universidade Federal de Campina Grande (UFCG), Brasil, 2012
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Habilidades Técnicas</h2>
+    <ul>
+        <li><b>Mais experiente em:</b> Java (7 anos), Ruby on Rails (3 anos), PHP (10 anos), Javascript (10 anos), jQuery (5 anos), CSS (10 anos)</li>
+        <li><b>Conhecimentos em:</b> Grails, Python, MySQL, PostgreSQL (com extensão PostGIS), Oracle, servidores web Apache e WebSphere, web services REST e SOAP, Spring, testes de unidade com Mockito</li>
+    </ul>
+
+    <p/>
+    <h2>Experiência Profissional</h2>
+    <ul>
+        <li>
+            <b>2012 - Present: Engenheiro de Software/Líder de Equipe</b><br/>
+            <a href="http://www.quimbik.com" target="_blank">Quimbik, Inc.</a><br/>
+            Projetos de front-end e back-end para clientes internacionais que vão de empresas na Fortune 500 até companhias start-up, localizadas principalmente nos Estados Unidos, Brasil e Reino Unido. Atualmente liderando a equipe de desenvolvimento de sistema back-end para um banco de corretagem com mais de 12.000 empregados e 40 anos em atividade. (Java, Ruby on Rails)
+        </li>
+        <li>
+            <b>2010: Engenheiro de Software Estagiário</b><br/>
+            <b>Inteligis</b><br/>
+            Trabalhou na construção de sistema para integrar prefeituras e desenvolvedores, para gerenciar projetos de código aberto e demandas. Criou os web services do sistema. (Java)
+        </li>
+        <li>
+            <b>2009 - 2010: Desenvolvedor Full Stack</b><br/>
+            <a href="http://propex.ufcg.edu.br" target="_blank">Pró-Reitoria de Pesquisa e Extensão da UFCG (PROPEX)</a><br/>
+            Criação e desenvolvimento de sistema online para registrar todos os projetos de pesquisa e extensão da UFCG. (PHP)
+        </li>
+        <li>
+            <b>2006 - 2014: Desenvolvedor Full Stack</b><br/>
+            <b>Freelance</b><br/>
+            Criação e manutenção de sistema de controle acadêmico completo da <a href="http://www.cesrei.com.br" target="_blank">Faculdade CESREI</a>. Foi utilizado por 8 anos, sendo crucial para o funcionamento cotidiano da faculdade. (PHP)
+        </li>
+            <li>
+            <b>2004 - 2010: Desenvolvedor Full Stack</b><br/>
+            <b>Freelance</b><br/>
+            Criação e manutenção de web site para a <a href="http://www.cesrei.com.br/" target="_blank">Faculdade CESREI</a>, que provia acesso individual para alunos e professores, para a troca direta de informação, como notas, materiais e arquivos. (PHP)
+        </li>
+        <li>
+            <b>2002 - 2006: Desenvolvedor Full Stack</b><br/>
+            <b>Freelance</b><br/>
+            Criação e manutenção do web site da escola CERC. Primeiro site da cidade a dar acesso online aos boletins dos alunos. (PHP)
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Esperiência em Pesquisa</h2>
+    <ul>
+        <li>
+            <b>2011 - 2012: Pesquisador e Desenvolvedor</b><br/>
+            <b>UFCG/CNPq</b><br/>
+            Trabalhando com aluno de doutorado na construção de ferramentas e técnicas para organização automática de coleções de fotos.
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Publicações</h2>
+    <ul>
+         <li>
+            <b>Internacionais</b><br/>
+            <ul>
+                <li>
+                    Yuri Almeida Lacerda, Hugo Feitosa de Figueirêdo, João Paulo Ribeiro da Silva, Daniel Farias Batista Leite, Anselmo Cardoso de Paiva, Cláudio de Souza Baptista. <a href="https://www.thinkmind.org/index.php?view=article&articleid=geoprocessing_2013_6_20_30103" target="_blank">On Improving Geotag Quality in Photo Collections</a>. In: GEOProcessing, 2013, Nice, França. The Fifth International Conference on Advanced Geographic Information Systems, Applications, and Services (GEOProcessing 2013), 2013. p. 139-144.
+                </li>
+                <li>
+                    Hugo Feitosa de Figueirêdo, João Paulo Ribeiro da Silva, Anselmo Cardoso de Paiva, Cláudio de Souza Baptista, <a href="http://redzur.stuba.sk/2012/proposals/09_paper.pdf" target="_blank">People Photo Annotation Using Context and Content</a>, Proceedings of The 6th International Workshop on Multimedia and Signal Processing. REDZUR 2012,  pp. 35-38, Vienna, Austria, April 11, 2012.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <b>Nacional</b><br/>
+            <ul>
+                <li>
+                    Hugo Feitosa de Figueirêdo, João Paulo Ribeiro da Silva, Daniel Farias Batista Leite, and Cláudio de Souza Baptista. 2012. <a href="http://dl.acm.org/citation.cfm?doid=2382636.2382650" target="_blank">Detection of photos from the same event captured by distinct cameras</a>. In Proceedings of the 18th Brazilian symposium on Multimedia and the web (WebMedia '12). ACM, New York, NY, USA, 51-58.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Monitoria</h2>
+    <ul>
+        <li>
+            <b>Jan 2010 - Dez 2010</b><br/>
+            Monitor de Lógica Matemática (Bacharelado)
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Idiomas</h2>
+    <ul>
+        <li>Português: Fluente;</li>
+        <li>Inglês: Avançado - nota no teste TOEFL iBT: 104/120; um ano morando em Austin, Texas (Estados Unidos)</li>
+    </ul>
+
+    <p/>
+    <h2>Informações Pessoais</h2>
+    <ul>
+        <li>Natural de Rio Branco - Acre, Brasil</li>
+        <li>Data de nascimento: 6 de outubro de 1985</li>
+        <li>Telefone: (83) 98199 5626</li>
+        <li>Email: joao@jpribeiro.com.br</li>
+    </ul>
+</div>
+
+<!-- 
+------------------------------
+EXPERIENCE 
+------------------------------
+--> 
+
+<div class="secao" id="experience">
+    <h1>Experiência</h1>
+
+    Alguns dos projetos em que trabalhei, mostrando algumas de suas funcionalidades e tecnologias aplicadas.
+
+    <h2>Profissional (Freelance)</h2>
+
+    <h3>Sistema de Controle Acadêmico - Faculdade CESREI</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="Faculdade CESREI" href="../img/cesrei.png">
+            <img src="../img/cesrei_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
+        </a>
+        <b>2006 - 2014</b><br/>
+        A Faculdade CESREI tem mais de mil alunos, e esse sistema gerenciava todas as suas informações acadêmicas. Ele fornecia controle sobre informação dos cursos da faculdade, alunos, professores, funcionários, disciplinas, horários, pagamentos e folhas de pagamento. Grande parte das tarefas do cotidiano da faculdade foi feita através desse sistema, que ficou em uso por oito anos e foi crucial para o funcionamento da faculdade durante esse tempo. Eu utilizei PHP e MySQL, e a interface foi feita com apenas HTML e CSS.
+    </div> 
+
+    <p/>
+    <h3>FLOApp (Free/Livre/Open Applications)</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="FLOApp" href="../img/floapp.png">
+            <img src="../img/floapp_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
+        </a>
+        <b>2010</b><br/>
+        Ambiente colaborativo para gestão de projetos de código aberto que focam em gestão pública, desenvolvido pela empresa de software Inteligis. Eu trabalhei principalmente na criação de web services SOAP (feitos em PHP) para prover a comunicação entre o FLOApp e o FusionForge (um sistema de código aberto que fornece gestão de projetos, tarefas, releases, fóruns de discussão, etc.). Trabalhei também na instalação e configuração dos servidores web (Apache e Tomcat), com PHP 5 e PostgreSQL, em ambiente Linux.
+    </div>
+
+    <p/>
+    <h3>Sistema de Informação - PROPEX - UFCG</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="PROPEX - UFCG" href="../img/propex.png">
+            <img src="../img/propex_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
+        </a>
+        <b>2009 - 2010</b><br/>
+        Criado e desenvolvido por mim, do zero, esse sistema foi construído para dar melhor controle para a Pró-Reitoria de Pesquisa e Extensão (PROPEX) da UFCG sobre os projetos de pesquisa/extensão da universidade, e seus estudantes. Utilizei banco de dados MySQL, PHP para o back-end, e HTML, CSS e Javascript para uma interface rica. Os usuários tinham senha individual criptografada, e diferentes privlégios no sistema, de acordo com seu papel.
+    </div>
+
+    <p/>
+    <h3>Web Site - Faculdade CESREI</h3>
+    <div style="display: table-cell;">
+        <div style="float: left; margin: 0 10px 10px 0;">
+            <a class="prints" title="Faculdade CESREI (Principal)" href="../img/cesreisite.png">
+                <img src="../img/cesreisite_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="Faculdade CESREI (Área do Professor)" href="../img/cesreisite2.png">
+                <img src="../img/cesreisite2_thumb.png" />
+            </a>
+        </div>
+        <b>2004 - 2010</b><br/>
+        Criei e desenvolvi esse site não apenas para fazer publicidade da faculdade, mas também para promover a interação com alunos e professores. Tratou-se de um portal dinâmico, com uma área administrativa para inserção de notícias, avisos, enquetes, calendário, editais e resultados de vestibular. Também deu a alunos e professores acesso individual, através de senha. Professores publicavam arquivos para suas turmas, notas de seus alunos, e as enviavam diretamente para a secretaria da faculdade (área do professor mostrada na segunda imagem ao lado). Alunos tinham acesso às notas e arquivos publicados por seus professores, e também a seus históricos acadêmicos e horário individual. Tudo foi desenvolvido com PHP, Flash, HTML/CSS e Javascript, e usou banco de dados Mysql. O layout tinha 3 diferentes esquemas de cor e 8 imagens diferente para o topo (fotos de pontos marcantes de nossa cidade), que eram carregadas aleatoriamente, dando 24 diferentes visuais às páginas.<br/>
+        Apesar de o site ter mudado após 2010, suas features de administração, e as áreas de alunos/professores ainda estão em uso até hoje.
+    </div>
+
+    <p/>
+    <h3>Web Site - Escola CERC</h3>
+    <div style="display: table-cell;">
+        <div style="float: left; margin: 0 10px 10px 0;">
+            <a class="prints" title="CERC School (Main page)" href="../img/cerc.png">
+                <img src="../img/cerc_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="CERC School (Student grades)" href="../img/cerc2.png">
+                <img src="../img/cerc2_thumb.png" />
+            </a>
+        </div>
+        <b>2002 - 2006</b><br/>
+        Esse foi meu primeiro projeto, que me iniciou na programação. O CERC era uma escola de médio porte (já fechou as portas), com aproximadamente 400 alunos à época. Criei o site completo para a escola, usando PHP, Flash, e HTML/CSS, para conseguir uma interface colorida e bastante animada. Haviam áreas de notícias, artigos, enquetes, quadro de avisos e, a principal característica, acesso aos boletins dos alunos (como é mostrado na segunda imagem). Isso foi feito com banco de dados MySQL. O CERC foi a primeira escola da cidade a fornecer esse serviço aos alunos e seus pais, nos idos de 2002.
+    </div>
+
+    <p/>
+
+    <h2>Projetos pessoais e outros</h2>
+
+    <h3>Barzin</h3>
+    <div style="display: table-cell;">
+        <div style="float: left; margin: 0 10px 10px 0;">
+            <a class="prints" title="Barzin (Tela de configuração)" href="../img/barzin1.png">
+                <img src="../img/barzin1_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="Barzin (Tela de pedido)" href="../img/barzin2.png">
+                <img src="../img/barzin2_thumb.png" />
+            </a>
+        </div>
+        <b>2011 - 2012</b><br/>
+        Esse foi um projeto para uma disciplina em minha graduação, e consistiu de um sistema para promover interação em restaurantes e bares, com tablets Android nas mesas. O gerente do estabelecimento tinha o papel de inserir o cardápio no sistema, em uma interface web, e os clientes navegavam nesse cardápio para fazer pedidos no tablet. Era possível dividir cada pedido (e a conta como um todo) para as pessoas na mesa, para que cada um soubesse quanto era sua parcela. O cliente também tinha a possibilidade de bater papo com os outros tablets. Houve 3 pessoas envolvidas nesse projeto, e nós utilizamos Java, PHP, HTML/CSS, Javascript, AJAX e banco de dados MySQL.
+    </div>
+
+    <p/>
+    <h3>Barzin Mobile</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="Barzin Mobile (Home/Cardápio)" href="../img/barzinmobile.png">
+            <img src="../img/barzinmobile_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
+        </a>
+        <b>2012</b><br/>
+        Esse foi feito por mim, para aplicar a ideia de Barzin (mencionado anteriormente) para dispositivos móveis, como smartphones. É um web app pelo qual o usuário pode navegar pelo cardápio do restaurante, fazer pedidos (dividindo-os por pessoa, simplificando a divisão da conta), incluir gorjeta, chamar um garçom, e muito mais. A interface HTML5 foi feita inteiramente utilizando jQuery Mobile e PHP. Você pode ver uma demonstração <a href="http://jpribeiro.x10.mx/barzin-mobile" target="_blank">clicando aqui</a> (usar o código 2975).
+    </div>
+
+    <p/>
+    <h3>Geodengue</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="Geodengue" href="../img/geodengue.png">
+            <img src="../img/geodengue_thumb.png" style="float: left; margin: 0 10px 10px 0;" />
+        </a>
+        <b>2011</b><br/>
+        Projeto desenvolvido para a disciplina Sistemas de Informações Geográficas, consistia em um SIg que controlava, sobre o mapa de uma cidade, agentes de saúde pública e focos de dengue, uma doença que aflinge centenas de milhares de pessoas no nordeste do Brasil. O sistema foi construído por uma equipe de 5 pessoas, que utilizaram GWT, Java, Geoserver, banco de dados PostgreSQL com a extensão Postgis, para manipular dados e consultas espaciais, tudo sobre uma camada do Google Maps.
+    </div>
+    
+    <p/>
+    <h3>Noeh</h3>
+    <div style="display: table-cell;">
+        <div style="float: left; margin: 0 10px 10px 0;">
+            <a class="prints" title="Noeh (Log in)" href="../img/noeh1.png">
+                <img src="../img/noeh1_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="Noeh (Lista de pessoas)" href="../img/noeh2.png">
+                <img src="../img/noeh2_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="Noeh (Mobile)" href="../img/noehmobile.png">
+                <img src="../img/noehmobile_thumb.png" /><br/>
+            </a>
+        </div>
+        <b>2015</b><br/>
+        Sistema para cadastro de pessoas de minha igreja, organizando toda a informação pessoal (como contatos, talentos e habilidades) e participação em diversos grupos (essa é a arca de Noé, todos têm espaço). Também construí uma versão mobile em HTML5, para facilitar o acesso móvel. O back-end é em Ruby on Rails, com manipulação de imagem usando ImageMagick, armazenamento em Dropbox e Google Drive, integração com API do Facebook. Eu também pude ter contato com Amazon Web Services e Digital Ocean para hospedagem online. Está disponível online em <a href="http://www.noeh.com.br" target="_blank">http://noeh.com.br</a>.
+    </div>
+
+    <p/>
+    <h3>Sistema de Informação - Restauração</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="Restauração" href="../img/restauracao.png">
+            <img src="../img/restauracao_thumb.png" style="float: left; margin: 0 10px 10px 0;" />
+        </a>
+        <b>2012</b><br/>
+        Esse é um pet project meu, sendo um sistema de informação para a Restauração, uma banda da qual eu faço parte (toco baixo!). Ele registra cada evento e cada música que tocamos, com informações importantes para nós, de modo que possamos consultá-lo sempre que precisamos, por smartphones, notebooks ou dispositivos móveis. O login no sistema é feito através do Facebook, apenas para usuários permitidos (restrito por mim). Utilizei PHP, HTML/CSS, Javascript, requisições AJAX, efeitos jQuery e banco de dados PostgreSQL. O sistema está online no no endereço <a href="http://restauracao.in" target="_blank">http://restauracao.in</a>.
+    </div>
+</div>
+
+<!-- 
+------------------------------
+CONTACT 
+------------------------------
+--> 
+
+
+<div class="secao" id="contact">
+    <h1>Contato</h1>
+    Seu contato será muito apreciado!
+    <p/>
+    <a href="mailto:joao@jpribeiro.com.br" target="_blank" class="links-secao-contato">
+        <img src="../img/email_a.png"/>joao@jpribeiro.com.br
+    </a><br/>
+    <a href="https://www.linkedin.com/in/joaopribeiro" target="_blank" class="links-secao-contato">
+        <img src="../img/linkedin_a.png"/>linkedin.com/in/joaopribeiro
+    </a><br/>
+    <a href="https://www.twitter.com/joaopribs" target="_blank" class="links-secao-contato">
+        <img src="../img/twitter_a.png"/>@joaopribs
+    </a><br/>
+    <a href="http://joaopribs.wordpress.com/" target="_blank" class="links-secao-contato">
+        <img src="../img/wordpress_a.png"/>joaopribs.wordpress.com
+    </a>
+</div>
+
+        <div id='rodape'>
+          Todo o conteúdo e layout © <span id='ano_rodape'></span> João Paulo Ribeiro
+        </div>
+
+        </div>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='http://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-31024939-1','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

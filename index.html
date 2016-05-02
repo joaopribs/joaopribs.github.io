@@ -1,0 +1,495 @@
+<!doctype html>
+<html class='no-js' lang=''>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <title>João Paulo Ribeiro</title>
+        <meta name='description' content=''>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+       
+        <link rel='apple-touch-icon' sizes='57x57' href='./img/favicon/apple-touch-icon-57x57.png'>
+        <link rel='apple-touch-icon' sizes='60x60' href='./img/favicon/apple-touch-icon-60x60.png'>
+        <link rel='apple-touch-icon' sizes='72x72' href='./img/favicon/apple-touch-icon-72x72.png'>
+        <link rel='apple-touch-icon' sizes='76x76' href='./img/favicon/apple-touch-icon-76x76.png'>
+        <link rel='apple-touch-icon' sizes='114x114' href='./img/favicon/apple-touch-icon-114x114.png'>
+        <link rel='apple-touch-icon' sizes='120x120' href='./img/favicon/apple-touch-icon-120x120.png'>
+        <link rel='apple-touch-icon' sizes='144x144' href='./img/favicon/apple-touch-icon-144x144.png'>
+        <link rel='apple-touch-icon' sizes='152x152' href='./img/favicon/apple-touch-icon-152x152.png'>
+        <link rel='apple-touch-icon' sizes='180x180' href='./img/favicon/apple-touch-icon-180x180.png'>
+        <link rel='icon' type='image/png' href='./img/favicon/favicon-32x32.png' sizes='32x32'>
+        <link rel='icon' type='image/png' href='./img/favicon/android-chrome-192x192.png' sizes='192x192'>
+        <link rel='icon' type='image/png' href='./img/favicon/favicon-96x96.png' sizes='96x96'>
+        <link rel='icon' type='image/png' href='./img/favicon/favicon-16x16.png' sizes='16x16'>
+        <link rel='manifest' href='./img/favicon/manifest.json'>
+        <link rel='mask-icon' href='./img/favicon/safari-pinned-tab.svg' color='#002140'>
+        <link rel='shortcut icon' href='./img/favicon/favicon.ico'>
+        <meta name='msapplication-TileColor' content='#002140'>
+        <meta name='msapplication-TileImage' content='./img/favicon/mstile-144x144.png'>
+        <meta name='msapplication-config' content='./img/favicon/browserconfig.xml'>
+        <meta name='theme-color' content='#002140'>
+
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+        <link rel='stylesheet' href='./css/normalize.min.css'>
+        <link rel='stylesheet' href='./css/mainv1.0.12.css'>
+        <link rel='stylesheet' href='./css/colorbox.css' />
+
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+        <script>window.jQuery || document.write('<script src=\'./js/vendor/jquery-1.11.2.min.js\'><\/script>')</script>
+        <script src='./js/vendor/jquery.colorbox-min.js'></script>
+
+        <script src='./js/plugins.js'></script>
+        <script src='./js/mainv1.0.12.js'></script>
+        <script src='./js/validacao.js'></script>
+
+        <script type="text/javascript">
+            /**
+             * Returns a random integer between min (inclusive) and max (inclusive)
+             * Using Math.round() will give you a non-uniform distribution!
+             min = 1, max = 2
+             */
+            var bgNumber = Math.floor(Math.random() * (1 - 2 + 1)) + 1;
+
+            var bgNumber = (bgNumber < 10) ? ("0" + bgNumber) : bgNumber;
+
+            $(function () {
+                $('#bg_horizontal').attr('src', './img/bg' + bgNumber + 'h.jpg');
+                $('#bg_vertical').attr('src', './img/bg' + bgNumber + 'v.jpg');
+
+                $('#ano_rodape').html(new Date().getFullYear());
+            });
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class='browserupgrade'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class='wrapper-inicial'><div class='wrapper-principal'>
+                <div class='bloco1'>
+                    <a href='#' class='link-logo mandar_pro_topo'><img src='./img/logo.png' /><div class='habilidades-mobile'>Full stack web developer<br/>Java, Ruby, PHP; Javascript, CSS</div></a>
+                </div><div class='bloco2'>
+                    <nav class='menu'>
+                        <ul>
+                            <li><a href='#' class='link_navegacao' data-link='about'>About</a></li>
+                            <li><a href='#' class='link_navegacao' data-link='resume'>Resume</a></li>
+                            <li><a href='#' class='link_navegacao' data-link='experience'>Experience</a></li>
+                            <li><a href='#' class='link_navegacao' data-link='contact'>Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class='table-split'></div>
+
+                    <div class='habilidades'>
+                        <p>
+                            Full stack web developer<br/>Java, Ruby, PHP; Javascript, CSS
+                        </p>
+                    </div>
+
+                    <div class='table-split'></div>
+
+                    <div class='sociais'>
+                        <div class='pessoais'>
+                            <img src='./img/pin.png'/>Campina Grande, Brazil<br/>
+                            <img src='./img/phone.png'/>+55 83 98199 5626
+                        </div>
+                        <div class='redes-sociais'>
+                            <a href='mailto:joao@jpribeiro.com.br' target='_blank' class='com_hover'>
+                                <img src='./img/email.png'/>
+                            </a>
+                            <a href='https://www.twitter.com/joaopribs' target='_blank' class='com_hover'>
+                                <img src='./img/twitter.png'/>
+                            </a>
+                            <a href='https://www.linkedin.com/in/joaopribeiro' target='_blank' class='com_hover'>
+                                <img src='./img/linkedin.png'/>
+                            </a>
+                            <a href='http://joaopribs.wordpress.com' target='_blank' class='com_hover'>
+                                <img src='./img/wordpress.png'/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='idiomas'>
+                <a href='./br/' class='idioma'>
+                    <img src='./img/brg.png' />
+                </a>
+                <a href='./' class='idioma'>
+                    <img src='./img/usg.png' />
+                </a>
+            </div>
+
+            <img src='' class='bg' id='bg_horizontal' />
+            <img src='' class='bg' id='bg_vertical' />
+        </div>
+
+        <div class='container-menu-superior'>
+            <nav class='menu-superior'>
+                <ul>
+                    <li>
+                        <a href='#' class='mandar_pro_topo'>
+                            <img src='./img/inline.png' />
+                        </a>
+                    </li>
+                    <li><a href='#' class='link_topo link_navegacao' data-link='about'>About</a></li>
+                    <li><a href='#' class='link_topo link_navegacao' data-link='resume'>Resume</a></li>
+                    <li><a href='#' class='link_topo link_navegacao' data-link='experience'>Experience</a></li>
+                    <li><a href='#' class='link_topo link_navegacao' data-link='contact'>Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class='bandeiras'><a href='/br/' class='idioma'><img src='./img/br.png' /></a><a href='/' class='idioma'><img src='./img/us.png' /></a></div>
+        </div>
+
+        <div class='container-menu-superior-mobile'>
+            <nav class='menu-superior-mobile'>
+                <a href='#' class='link_topo link_navegacao' data-link='about'>About</a>
+                <a href='#' class='link_topo link_navegacao' data-link='resume'>Resume</a>
+                <a href='#' class='link_topo link_navegacao' data-link='experience'>Experience</a>
+                <a href='#' class='link_topo link_navegacao' data-link='contact'>Contact</a>
+            </nav>
+            <div class='logo-e-idiomas'>
+                <a href='#' class='mandar_pro_topo'>
+                    <img src='./img/inline.png' class='logo-inline' />
+                </a>
+                <a href='./br/' class='idioma'>
+                    <img src='./img/br.png' />
+                </a>
+                <a href='./' class='idioma'>
+                    <img src='./img/us.png' />
+                </a>
+            </div>
+        </div>
+
+        <div class='conteudo'>
+
+<!-- 
+------------------------------
+ABOUT 
+------------------------------
+--> 
+
+<div class="secao" id="about">
+    <h1>Hello world</h1>
+
+    Hi there! My name is João Paulo, and I'm a bachelor in Computer Science, majored at the <a href="http://dsc.ufcg.edu.br" target="_blank">Federal University of Campina Grande</a> since 2012.   
+    <p/>
+    My main areas of interest are:
+    <ul>
+        <li>Web development (front and back end)</li>
+        <li>Information Systems</li>
+        <li>Databases</li>
+    </ul>
+    But I'm interested in everything that goes around the beautiful world of technology. I also play the bass guitar (I'm very good) and like to take photographs (I'm not so good).
+    <p/>
+    In this site, I expose relevant information regarding my professional competences. So, please, feel free to browse and get to know me a bit. 
+    And <a href="#" class="link_navegacao" data-link="contact">contact me</a> any time you want, I promise I'm a nice guy!
+
+    <br style="clear: both;"/>
+</div>
+
+<!-- 
+------------------------------
+RESUME 
+------------------------------
+--> 
+
+<div class="secao" id="resume">
+    <h1>Resume</h1>
+
+    <a href="./arq/resume.pdf" target="_blank"><img src="./img/pdf.png" style="margin-right: 5px;" />View PDF</a>
+
+    <p/>
+    <h2>Education</h2>
+    <ul>
+        <li>
+            Bsc. Computer Science, Universidade Federal de Campina Grande (UFCG), Brazil, 2012
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><b>Most experienced in:</b> Java (7 years), Ruby on Rails (3 years), PHP (10 years), Javascript (10 years), jQuery (5 years), CSS (10 years)</li>
+        <li><b>Knowledge in:</b> Grails, Python, MySQL, PostgreSQL (with PostGIS extension), Oracle, Apache and WebSphere web servers, REST and SOAP web services, Spring, unit testing with Mockito</li>
+    </ul>
+
+    <p/>
+    <h2>Professional Experience</h2>
+    <ul>
+        <li>
+            <b>2012 - Present: Software Engineer/Team Leader</b><br/>
+            <a href="http://www.quimbik.com" target="_blank">Quimbik, Inc.</a><br/>
+            Front-end and back-end projects for international clients that range from Fortune 500 corporations to start-up companies.  Currently leading the development team on back-end system for a brokerage and banking company with over 12,000 employees and 40 years in business. (Java, Ruby on Rails)
+        </li>
+        <li>
+            <b>2010: Software Engineer Intern</b><br/>
+            <b>Inteligis</b><br/>
+            Worked on the construction of a system to integrate city halls and developers, to manage open source projects and requests. Built the system's web services. (Java)
+        </li>
+        <li>
+            <b>2009 - 2010: Full Stack Developer</b><br/>
+            <a href="http://propex.ufcg.edu.br" target="_blank">UFCG Dean's Office for Research and Extension (PROPEX)</a><br/>
+            Creation and development of an online information system, to record all research/extension projects and students of UFCG. (PHP)
+        </li>
+        <li>
+            <b>2006 - 2014: Full Stack Developer</b><br/>
+            <b>Freelance</b><br/>
+            Creation and maintenance of full academic control system on <a href="http://www.cesrei.com.br/" target="_blank">CESREI College</a>. It was used for 8 years, and was crucial to everyday tasks on the college. (PHP)
+        </li>
+            <li>
+            <b>2004 - 2010: Full Stack Developer</b><br/>
+            <b>Freelance</b><br/>
+            Creation and maintenance of a web site for <a href="http://www.cesrei.com.br/" target="_blank">CESREI College</a>. It provided individual access to students and professors, so they could directly exchange information like grades, texts and files. (PHP)
+        </li>
+        <li>
+            <b>2002 - 2006: Full Stack Developer</b><br/>
+            <b>Freelance</b><br/>
+            Creation and maintenance of web site for CERC school. First site to provide online access to students grades in the city. (PHP)
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Research Experience</h2>
+    <ul>
+        <li>
+            <b>2011 - 2012: Researcher and Developer</b><br/>
+            <b>UFCG/CNPq</b><br/>
+            Working with a doctorate student, constructing tools and techniques to automatically organize photo collections. 
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Publications</h2>
+    <ul>
+        <li>
+            <b>International</b><br/>
+            <ul>
+                <li>
+                    Yuri Almeida Lacerda, Hugo Feitosa de Figueirêdo, João Paulo Ribeiro da Silva, Daniel Farias Batista Leite, Anselmo Cardoso de Paiva, Cláudio de Souza Baptista. <a href="https://www.thinkmind.org/index.php?view=article&articleid=geoprocessing_2013_6_20_30103" target="_blank">On Improving Geotag Quality in Photo Collections</a>. In: GEOProcessing, 2013, Nice, France. The Fifth International Conference on Advanced Geographic Information Systems, Applications, and Services (GEOProcessing 2013), 2013. p. 139-144.
+                </li>
+                <li>
+                    Hugo Feitosa de Figueirêdo, João Paulo Ribeiro da Silva, Anselmo Cardoso de Paiva, Cláudio de Souza Baptista, <a href="http://redzur.stuba.sk/2012/proposals/09_paper.pdf" target="_blank">People Photo Annotation Using Context and Content</a>, Proceedings of The 6th International Workshop on Multimedia and Signal Processing. REDZUR 2012,  pp. 35-38, Vienna, Austria, April 11, 2012.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <b>National</b><br/>
+            <ul>
+                <li>
+                    Hugo Feitosa de Figueirêdo, João Paulo Ribeiro da Silva, Daniel Farias Batista Leite, and Cláudio de Souza Baptista. 2012. <a href="http://dl.acm.org/citation.cfm?doid=2382636.2382650" target="_blank">Detection of photos from the same event captured by distinct cameras</a>. In Proceedings of the 18th Brazilian symposium on Multimedia and the web (WebMedia '12). ACM, New York, NY, USA, 51-58.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Teaching Assistant</h2>
+    <ul>
+        <li>
+            <b>Jan 2010 - Dec 2010</b><br/>
+            Teaching assistant of Mathematical Logic  
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Languages</h2>
+    <ul>
+        <li>Portuguese: Fluent;</li>
+        <li>English: Advanced - TOEFL iBT score 104/120, one year living in Austin, Texas (United States)</li>
+    </ul>
+
+    <p/>
+    <h2>Personal Info</h2>
+    <ul>
+        <li>Natural of Rio Branco, Brazil</li>
+        <li>Birth date: October 6th, 1985</li>
+        <li>Phone: +55 (83) 98199 5626</li>
+        <li>Email: joao@jpribeiro.com.br</li>
+    </ul>
+</div>
+
+<!-- 
+------------------------------
+EXPERIENCE 
+------------------------------
+--> 
+
+<div class="secao" id="experience">
+    <h1>Experience</h1>
+
+    Some of the projects on which I have worked, showcasing some of their features and employed technologies.
+
+    <h2>Professional (Freelance projects)</h2>
+
+    <h3>Academic Control System - CESREI College</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="CESREI College" href="img/cesrei.png">
+            <img src="img/cesrei_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
+        </a>
+        <b>2006 - 2014</b><br/>
+        CESREI College has more than a thousand students, and this system managed all of their academic information. It provided controls on the information of the college's courses, students, professors, employees, disciplines, schedules, payments and payroll. Most of everyday tasks in the college was done on this system for eight years, and it was crucial for the college functioning through this time. I used PHP and MySQL, and the interface was made with HTML and CSS only.
+    </div> 
+
+    <p/>
+    <h3>FLOApp (Free/Livre/Open Applications)</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="FLOApp" href="img/floapp.png">
+            <img src="img/floapp_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
+        </a>
+        <b>2010</b><br/>
+        Cooperative environment to manage open source projects that focus on public management, developed by the software company Inteligis. I worked mainly on the creation of SOAP web services (made in PHP) to provide comunication between FLOApp and FusionForge (an open source system that comprehends management for projects, tasks, releases, discussion boards, etc.). I worked also on the installation and configuration of the web servers (Apache and Tomcat), with PHP 5 and PostgreSQL, using Linux.
+    </div>
+
+    <p/>
+    <h3>Information System - PROPEX - UFCG</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="PROPEX - UFCG" href="img/propex.png">
+            <img src="img/propex_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
+        </a>
+        <b>2009 - 2010</b><br/>
+        Fully created and developed by me from scratch, this system was built to provide better control to UFCG Dean's Office for Research and Extension (PROPEX) over research/extension projects and its students. I used MySQL database, PHP for the back-end, and HTML, CSS and Javascript, for a richer front-end. Users had individual cryptographed password, and different privileges on the system, according to their role. 
+    </div>
+
+    <p/>
+    <h3>Web Site - CESREI College</h3>
+    <div style="display: table-cell;">
+        <div style="float: left; margin: 0 10px 10px 0;">
+            <a class="prints" title="CESREI College (Main)" href="img/cesreisite.png">
+                <img src="img/cesreisite_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="CESREI College (Professors area)" href="img/cesreisite2.png">
+                <img src="img/cesreisite2_thumb.png" />
+            </a>
+        </div>
+        <b>2004 - 2010</b><br/>
+        I created and developed this site not only to make publicity of the college, but also to improve interaction with students and professors. It was a dynamic portal, with an administration area to insert news, notices, polls, calendar, official announcements and admission test results. It also gave students and professors individual access, through password. Professors published students grades, files for their classes and sent it directly to the college's academic administration (professor's area shown on the second image). Students had access to the grades and files published by their professors, also to their academic record and schedule. Everything was developed with PHP, Flash, HTML/CSS and Javascript, and used MySQL database. The layout had 3 different color schemes and 8 different top images (photos of important spots of our city), that were loaded randomly, so there were 24 different visuals to the pages. 
+    </div>
+
+    <p/>
+    <h3>Web Site - CERC School</h3>
+    <div style="display: table-cell;">
+        <div style="float: left; margin: 0 10px 10px 0;">
+            <a class="prints" title="CERC School (Main page)" href="img/cerc.png">
+                <img src="img/cerc_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="CERC School (Student grades)" href="img/cerc2.png">
+                <img src="img/cerc2_thumb.png" />
+            </a>
+        </div>
+        <b>2002 - 2006</b><br/>
+        This was my first project, the one that got me started into programming. CERC was a medium-sized school, with around 400 students at the time. I created the complete web site for the school, using PHP, Flash and HTML/CSS, to get a colorful and very animated interface. It featured news, articles, polls, message board, and, the main feature, access to students grades (as you can see on the second image). This was made with MySQL database. CERC was the first school on the city to provide this service to students and their parents, back in 2002. 
+    </div>
+
+    <p/>
+
+    <h2>Personal projects and other</h2>
+
+    <h3>Barzin</h3>
+    <div style="display: table-cell;">
+        <div style="float: left; margin: 0 10px 10px 0;">
+            <a class="prints" title="Barzin (Configuration screen)" href="img/barzin1.png">
+                <img src="img/barzin1_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="Barzin (Order screen)" href="img/barzin2.png">
+                <img src="img/barzin2_thumb.png" />
+            </a>
+        </div>
+        <b>2011 - 2012</b><br/>
+        This one was a project for a discipline in my graduation, and consisted of a system to promote interaction in restaurants and bars, with Android tablets on the tables. The establishment manager had power to insert the menu on the system, on a web interface, and the clients would browse on this menu and place orders. On the tablet, it was possible to divide every order (and the bill as a whole) to every person, so everyone would know how much was their share. Also, the client could chat with other tablets. There was 3 people on the team of this project, and we used Java, PHP, HTML/CSS, Javascript, AJAX and MySQL database. 
+    </div>
+
+    <p/>
+    <h3>Barzin Mobile</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="Barzin Mobile (Home/Menu)" href="img/barzinmobile.png">
+            <img src="img/barzinmobile_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
+        </a>
+        <b>2012</b><br/>
+        This was done by myself, for applying the idea of Barzin (mentioned before) for mobile devices, such as smartphones. It is a web app through which the user could browse the restaurant's menu, place orders (splitting them by person, simplifying the tab split), include tip, call a waiter, and much more. The HTML5 interface was done entirely using jQuery Mobile and PHP.
+    </div>
+
+    <p/>
+    <h3>Geodengue</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="Geodengue" href="img/geodengue.png">
+            <img src="img/geodengue_thumb.png" style="float: left; margin: 0 10px 10px 0;" />
+        </a>
+        <b>2011</b><br/>
+        Project developed for the discipline Geographic Information Systems, it consisted of a gIS that controlled, over a city map, public health agents and epidemic focuses of dengue, a disease that inflicts hundreds of thousands of people in our region and country. The system was built by a team of 5 members, and used GWT, Java, Geoserver, PostgreSQL database with the Postgis extension, to handle spatial data and queries, all over a Google Maps layer.
+    </div>
+    
+    <p/>
+    <h3>Noeh</h3>
+    <div style="display: table-cell;">
+        <div style="float: left; margin: 0 10px 10px 0;">
+            <a class="prints" title="Noeh (Log in screen)" href="img/noeh1.png">
+                <img src="img/noeh1_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="Noeh (People list)" href="img/noeh2.png">
+                <img src="img/noeh2_thumb.png" style="margin-bottom: 5px;"/><br/>
+            </a>
+            <a class="prints" title="Noeh (Mobile)" href="img/noehmobile.png">
+                <img src="img/noehmobile_thumb.png" /><br/>
+            </a>
+        </div>
+        <b>2015</b><br/>
+        System for registering members in my church, organizing all personal information (like contact info, talents and skills) and participation in several groups (this is Noah's ark, there is room for everyone). I also built a mobile version in HTLM5, to facilitate access. The back-end is in Ruby on Rails, with image manipulation using ImageMagick, storage in Dropbox and Google Drive, integration with Facebook API. I also had contact with Amazon Web Services and Digital Ocean. It is online in <a href="http://www.noeh.com.br" target="_blank">http://noeh.com.br</a>.
+    </div>
+
+    <p/>
+    <h3>Information System - Restauração</h3>
+    <div style="display: table-cell;">
+        <a class="prints" title="Restauração" href="img/restauracao.png">
+            <img src="img/restauracao_thumb.png" style="float: left; margin: 0 10px 10px 0;" />
+        </a>
+        <b>2012</b><br/>
+        A pet project of mine, it is an information system to Restauração, a musical group I'm in (and play the bass!). It records every event we play and every music, with important information to us, so we can consult whenever we have to, through smartphones, notebooks or mobile devices. It features a login system through Facebook, to allowed users (restricted by me). It also notifies everyone when we have scheduled dates. I used PHP, HTML/CSS, Javascript, AJAX requests, jQuery effects and PostgreSQL database. It is online on the address <a href="http://restauracao.in" target="_blank">http://restauracao.in</a>.
+    </div>
+</div>
+
+<!-- 
+------------------------------
+CONTACT 
+------------------------------
+--> 
+
+
+<div class="secao" id="contact">
+    <h1>Contact</h1>
+    Your contact will be much much much appreciated!
+    <p/>
+    <a href="mailto:joao@jpribeiro.com.br" target="_blank" class="links-secao-contato">
+        <img src="img/email_a.png"/>joao@jpribeiro.com.br
+    </a><br/>
+    <a href="https://www.linkedin.com/in/joaopribeiro" target="_blank" class="links-secao-contato">
+        <img src="img/linkedin_a.png"/>linkedin.com/in/joaopribeiro
+    </a><br/>
+    <a href="https://www.twitter.com/joaopribs" target="_blank" class="links-secao-contato">
+        <img src="img/twitter_a.png"/>@joaopribs
+    </a><br/>
+    <a href="http://joaopribs.wordpress.com/" target="_blank" class="links-secao-contato">
+        <img src="img/wordpress_a.png"/>joaopribs.wordpress.com
+    </a>
+</div>
+
+
+        <div id='rodape'>
+          All content and layout © <span id='ano_rodape'></span> João Paulo Ribeiro
+        </div>
+
+        </div>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='http://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-31024939-1','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
