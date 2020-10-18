@@ -139,11 +139,13 @@ input, textarea {
 }
 
 .wrapper-principal {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
     height: 100%;
     width: 100%;
     vertical-align: middle;
-    position: relative;
     z-index: 2;
 }
 
@@ -151,9 +153,6 @@ input, textarea {
     width: 90%;
     height: 100%;
     text-align: center;
-    position: absolute;
-    top: 0;
-    left: 5%;
 }
 
 .link-logo {
@@ -185,11 +184,8 @@ input, textarea {
 }
 
 .wrapper-principal .bloco2 {
-    width: 45%;
+    width: 50%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
     text-align: left;
     padding: 0;
     margin: 0;
@@ -226,6 +222,10 @@ nav.menu ul li a {
     display: table-cell;
     letter-spacing: 0.3em;
     vertical-align: middle;
+}
+
+nav.menu ul li a:hover {
+    color: #ffd700;
 }
 
 .table-split {
@@ -329,6 +329,10 @@ nav.menu-superior ul li a {
     letter-spacing: 0.2em;
 }
 
+nav.menu-superior ul li a.nowrap {
+    white-space: nowrap;
+}
+
 .bandeiras {
     display: none;
     position: absolute;
@@ -358,6 +362,10 @@ nav.menu-superior ul li a {
 .container-menu-superior-mobile {
     width: 100%;
     z-index: 999;
+}
+
+.container-menu-superior-mobile nav.menu-superior-mobile a {
+    letter-spacing: 0 !important;
 }
 
 nav.menu-superior-mobile {
@@ -455,11 +463,12 @@ INTERMEDIARIO
 
     .wrapper-principal {
         height: 95%;
+        top: 2.5%;
         text-align: left;
     }
 
     .wrapper-principal .bloco1 {
-        width: 55%;
+        width: 50%;
         text-align: right;
         left: 0;
     }

@@ -54,10 +54,10 @@
             var bgNumber = (bgNumber < 10) ? ("0" + bgNumber) : bgNumber;
 
             $(function () {
-                $('#bg_horizontal').attr('src', '../img/bg' + bgNumber + 'h.jpg');
-                $('#bg_vertical').attr('src', '../img/bg' + bgNumber + 'v.jpg');
+                // $('#bg_horizontal').attr('src', '../img/bg' + bgNumber + 'h.jpg');
+                // $('#bg_vertical').attr('src', '../img/bg' + bgNumber + 'v.jpg');
 
-                $('#ano_rodape').html(new Date().getFullYear());
+                $('.ano_atual').html(new Date().getFullYear());
             });
         </script>
     </head>
@@ -74,7 +74,7 @@
                         <ul>
                             <li><a href='#' class='link_navegacao' data-link='about'>Sobre</a></li>
                             <li><a href='#' class='link_navegacao' data-link='resume'>Currículo</a></li>
-                            <li><a href='#' class='link_navegacao' data-link='experience'>Experiência</a></li>
+                            <li><a href='#' class='link_navegacao' data-link='freelance'>Freelance, Projetos Pessoais e Outros</a></li>
                             <li><a href='#' class='link_navegacao' data-link='contact'>Contato</a></li>
                         </ul>
                     </nav>
@@ -91,7 +91,7 @@
 
                     <div class='sociais'>
                         <div class='pessoais'>
-                            <img src='../img/pin.png'/>Campina Grande - PB, Brasil<br/>
+                            <img src='../img/pin.png'/>Belo Horizonte - MG, Brasil<br/>
                             <img src='../img/phone.png'/>+55 83 98199 5626
                         </div>
                         <div class='redes-sociais'>
@@ -121,8 +121,8 @@
                 </a>
             </div>
 
-            <img src='../img/fff.png' class='bg' id='bg_horizontal' />
-            <img src='../img/fff.png' class='bg' id='bg_vertical' />
+            <img src='../img/bg02h.jpg' class='bg' id='bg_horizontal' />
+            <img src='../img/bg02v.jpg' class='bg' id='bg_vertical' />
         </div>
 
         <div class='container-menu-superior'>
@@ -135,7 +135,7 @@
                     </li>
                     <li><a href='#' class='link_topo link_navegacao' data-link='about'>Sobre</a></li>
                     <li><a href='#' class='link_topo link_navegacao' data-link='resume'>Currículo</a></li>
-                    <li><a href='#' class='link_topo link_navegacao' data-link='experience'>Experiência</a></li>
+                    <li><a href='#' class='link_topo link_navegacao nowrap' data-link='freelance'>Freelance e Outros</a></li>
                     <li><a href='#' class='link_topo link_navegacao' data-link='contact'>Contato</a></li>
                 </ul>
             </nav>
@@ -147,7 +147,7 @@
             <nav class='menu-superior-mobile'>
                 <a href='#' class='link_topo link_navegacao' data-link='about'>Sobre</a>
                 <a href='#' class='link_topo link_navegacao' data-link='resume'>Currículo</a>
-                <a href='#' class='link_topo link_navegacao' data-link='experience'>Experiência</a>
+                <a href='#' class='link_topo link_navegacao' data-link='freelance'>Freelance e Outros</a>
                 <a href='#' class='link_topo link_navegacao' data-link='contact'>Contato</a>
             </nav>
             <div class='logo-e-idiomas'>
@@ -174,7 +174,7 @@ ABOUT
 <div class="secao" id="about">
     <h1>Hello world</h1>
 
-    Olá! Meu nome é João Paulo, e sou bacharel em <a href="http://dsc.ufcg.edu.br" target="_blank">Ciência da Computação</a>, na <a href="http://www.ufcg.edu.br" target="_blank">Universidade Federal de Campina Grande (UFCG)</a>, graduado em 2012.
+    Olá! Meu nome é João Paulo, e sou bacharel em <a href="http://dsc.ufcg.edu.br" target="_blank">Ciência da Computação</a>, pela <a href="http://www.ufcg.edu.br" target="_blank">Universidade Federal de Campina Grande (UFCG)</a>, graduado em 2012.
     <p />
     Minhas principais áreas de interesse são:
     <ul>
@@ -212,17 +212,17 @@ RESUME
     <p/>
     <h2>Habilidades Técnicas</h2>
     <ul>
-        <li><b>Mais experiente em:</b> Java (7 anos), Ruby on Rails (4 anos), PHP (10 anos), Javascript (10 anos), jQuery (5 anos), CSS (10 anos)</li>
-        <li><b>Conhecimentos em:</b> Grails, Python, MySQL, PostgreSQL (com extensão PostGIS), Oracle, servidores web Apache e WebSphere, web services REST e SOAP, Spring, testes de unidade com Mockito</li>
+        <li><b>Mais experiente em:</b> Java (2013 - <span class="ano_atual">2020</span>), Ruby on Rails (2012 - 2015), PHP (2002 - 2012), Javascript (2006 - <span class="ano_atual">2020</span>), HTML5 + CSS (2010 - <span class="ano_atual">2020</span>)</li>
+        <li><b>Conhecimentos em:</b> React, React Native, Bancos de dados (MySQL, PostgreSQL, Oracle, SQL Server), Spring, Testes de Unidade (Mockito, EasyMock), Servidores Web (Apache, Tomcat, Websphere, JBoss), Web Services REST e SOAP</li>
     </ul>
 
     <p/>
     <h2>Experiência Profissional</h2>
     <ul>
         <li>
-            <b>2012 - Present: Engenheiro de Software/Líder de Equipe</b><br/>
+            <b>2012 - Atual: Engenheiro de Software/Líder de Equipe</b><br/>
             <a href="http://www.quimbik.com" target="_blank">Quimbik, Inc.</a><br/>
-            Projetos de front-end e back-end para clientes internacionais que vão de empresas na Fortune 500 até companhias start-up, localizadas principalmente nos Estados Unidos, Brasil e Reino Unido. Atualmente liderando a equipe de desenvolvimento de sistema back-end para um banco de corretagem com mais de 12.000 empregados e 40 anos em atividade. (Java, Ruby on Rails)
+            Projetos de front-end e back-end para clientes internacionais que vão de empresas na Fortune 500 até companhias start-up, localizadas principalmente nos Estados Unidos, Brasil e Reino Unido. Já liderei a equipe de desenvolvimento de sistema back-end para um banco de corretagem com mais de 12.000 empregados e 40 anos em atividade. Atualmente, trabalho no back e front-end de uma solução de Board Portal para uma corporação de serviços financeiros multinacional. (Java, Ruby on Rails)
         </li>
         <li>
             <b>2010: Engenheiro de Software Estagiário</b><br/>
@@ -268,6 +268,9 @@ RESUME
             <b>Internacionais</b><br/>
             <ul>
                 <li>
+                    Danilo Silva, Joao Paulo da Silva, Gustavo Santos, Ricardo Terra, and Marco Tulio Valente. <a href="https://homepages.dcc.ufmg.br/~mtov/pub/2020-tse-refdiff.pdf" target="_blank">RefDiff 2.0: A Multi-language Refactoring Detection Tool</a>. IEEE Transactions on Software Engineering, 1(1):1-17, 2020.
+                </li>
+                <li>
                     Yuri Almeida Lacerda, Hugo Feitosa de Figueirêdo, João Paulo Ribeiro da Silva, Daniel Farias Batista Leite, Anselmo Cardoso de Paiva, Cláudio de Souza Baptista. <a href="https://www.thinkmind.org/index.php?view=article&articleid=geoprocessing_2013_6_20_30103" target="_blank">On Improving Geotag Quality in Photo Collections</a>. In: GEOProcessing, 2013, Nice, França. The Fifth International Conference on Advanced Geographic Information Systems, Applications, and Services (GEOProcessing 2013), 2013. p. 139-144.
                 </li>
                 <li>
@@ -280,6 +283,23 @@ RESUME
             <ul>
                 <li>
                     Hugo Feitosa de Figueirêdo, João Paulo Ribeiro da Silva, Daniel Farias Batista Leite, and Cláudio de Souza Baptista. 2012. <a href="http://dl.acm.org/citation.cfm?doid=2382636.2382650" target="_blank">Detection of photos from the same event captured by distinct cameras</a>. In Proceedings of the 18th Brazilian symposium on Multimedia and the web (WebMedia '12). ACM, New York, NY, USA, 51-58.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <p/>
+    <h2>Patente</h2>
+    <ul>
+        <li>
+            <b>Nacional</b><br/>
+            <ul>
+                <li>
+                    <strong>BR 512018001025-3</strong> FIGUEIRÊDO, H. F., BAPTISTA, C. S., LEITE, D.F.B., DA SILVA, J.P.R., FIRMINO, A. A. <br/>
+                    Número do processo: BR 512018001025-3<br/>
+                    Título: Detecção de Eventos Compartilhados Através de Fotografias Digitais – PhotoSharedEvents<br/>
+                    Data de envio do formulário: 25/06/2018<br/>
+                    Data de publicação: 15/10/2012
                 </li>
             </ul>
         </li>
@@ -304,7 +324,7 @@ RESUME
     <p/>
     <h2>Informações Pessoais</h2>
     <ul>
-        <li>Natural de Rio Branco - Acre, Brasil</li>
+        <li>Natural de Rio Branco - Acre, Brasil (criado em Campina Grande - PB)</li>
         <li>Data de nascimento: 6 de outubro de 1985</li>
         <li>Telefone: (83) 98199 5626</li>
         <li>Email: joao@jpribeiro.com.br</li>
@@ -313,12 +333,12 @@ RESUME
 
 <!-- 
 ------------------------------
-EXPERIENCE 
+FREELANCE 
 ------------------------------
 --> 
 
-<div class="secao" id="experience">
-    <h1>Experiência</h1>
+<div class="secao" id="freelance">
+    <h1>Freelance, Projetos Pessoais e Outros</h1>
 
     Alguns dos projetos em que trabalhei, mostrando algumas de suas funcionalidades e tecnologias aplicadas.
 
@@ -409,7 +429,7 @@ EXPERIENCE
             <img src="../img/barzinmobile_thumb.png" style="float: left; margin: 0 10px 10px 0;"/>
         </a>
         <b>2012</b><br/>
-        Esse foi feito por mim, para aplicar a ideia de Barzin (mencionado anteriormente) para dispositivos móveis, como smartphones. É um web app pelo qual o usuário pode navegar pelo cardápio do restaurante, fazer pedidos (dividindo-os por pessoa, simplificando a divisão da conta), incluir gorjeta, chamar um garçom, e muito mais. A interface HTML5 foi feita inteiramente utilizando jQuery Mobile e PHP. Você pode ver uma demonstração <a href="http://jpribeiro.x10.mx/barzin-mobile" target="_blank">clicando aqui</a> (usar o código 2975).
+        Esse foi feito por mim, para aplicar a ideia de Barzin (mencionado anteriormente) para dispositivos móveis, como smartphones. É um web app pelo qual o usuário pode navegar pelo cardápio do restaurante, fazer pedidos (dividindo-os por pessoa, simplificando a divisão da conta), incluir gorjeta, chamar um garçom, e muito mais. A interface HTML5 foi feita inteiramente utilizando jQuery Mobile e PHP.
     </div>
 
     <p/>
@@ -437,7 +457,7 @@ EXPERIENCE
             </a>
         </div>
         <b>2015</b><br/>
-        Sistema para cadastro de pessoas de minha igreja, organizando toda a informação pessoal (como contatos, talentos e habilidades) e participação em diversos grupos (essa é a arca de Noé, todos têm espaço). Também construí uma versão mobile em HTML5, para facilitar o acesso móvel. O back-end é em Ruby on Rails, com manipulação de imagem usando ImageMagick, armazenamento em Dropbox e Google Drive, integração com API do Facebook. Eu também pude ter contato com Amazon Web Services e Digital Ocean para hospedagem online. Uma demonstração está mantida em <a href="http://noeh.herokuapp.com" target="_blank">http://noeh.herokuapp.com</a>.
+        Sistema para cadastro de pessoas de minha igreja, organizando toda a informação pessoal (como contatos, talentos e habilidades) e participação em diversos grupos (essa é a arca de Noé, todos têm espaço). Também construí uma versão mobile em HTML5, para facilitar o acesso móvel. O back-end é em Ruby on Rails, com manipulação de imagem usando ImageMagick, armazenamento em Dropbox e Google Drive, integração com API do Facebook. Eu também pude ter contato com Amazon Web Services e Digital Ocean para hospedagem online.
     </div>
 
     <p/>
@@ -447,7 +467,7 @@ EXPERIENCE
             <img src="../img/restauracao_thumb.png" style="float: left; margin: 0 10px 10px 0;" />
         </a>
         <b>2012</b><br/>
-        Esse é um pet project meu, sendo um sistema de informação para a Restauração, uma banda da qual eu faço parte (toco baixo!). Ele registra cada evento e cada música que tocamos, com informações importantes para nós, de modo que possamos consultá-lo sempre que precisamos, por smartphones, notebooks ou dispositivos móveis. O login no sistema é feito através do Facebook, apenas para usuários permitidos (restrito por mim). Utilizei PHP, HTML/CSS, Javascript, requisições AJAX, efeitos jQuery e banco de dados PostgreSQL. O sistema está online no no endereço <a href="http://restauracao.in" target="_blank">http://restauracao.in</a>.
+        Esse é um pet project meu, sendo um sistema de informação para a Restauração, uma banda da qual eu faço parte (toco baixo!). Ele registra cada evento e cada música que tocamos, com informações importantes para nós, de modo que possamos consultá-lo sempre que precisamos, por smartphones, notebooks ou dispositivos móveis. O login no sistema é feito através do Facebook, apenas para usuários permitidos (restrito por mim). Utilizei PHP, HTML/CSS, Javascript, requisições AJAX, efeitos jQuery e banco de dados PostgreSQL.
     </div>
 </div>
 
@@ -477,7 +497,7 @@ CONTACT
 </div>
 
         <div id='rodape'>
-          Todo o conteúdo e layout © <span id='ano_rodape'></span> João Paulo Ribeiro
+          Todo o conteúdo e layout © <span class='ano_atual'>2020</span> João Paulo Ribeiro
         </div>
 
         </div>

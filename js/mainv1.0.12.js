@@ -72,7 +72,7 @@ $(function () {
 
 		var finalWrapperInicial = $('.wrapper-inicial').offset().top + $('.wrapper-inicial').outerHeight();
 
-		if (posicaoAtual < finalWrapperInicial) {
+		if (posicaoAtual <= finalWrapperInicial) {
 			// Dentro do wrapper inicial
 
 			if (!jaFixouDentroDoWrapperInicial) {
@@ -81,6 +81,7 @@ $(function () {
 				$(".link_topo").removeClass("ativo");
 				$(".conteudo").css("margin-top", "0");	
 
+				forcarPrimeiraSecao = true;
 				jaFixouDentroDoWrapperInicial = true;
 				jaFixouAbaixoDoWrapperInicial = false;
 			}
@@ -89,9 +90,8 @@ $(function () {
 			// Abaixo do wrapper inicial
 
 			if (!jaFixouAbaixoDoWrapperInicial) {
-
-				$menu.addClass('fixed');
 				$(".conteudo").css("margin-top", $menu.outerHeight() + "px");
+				$menu.addClass('fixed');
 
 				jaFixouDentroDoWrapperInicial = false;
 				jaFixouAbaixoDoWrapperInicial = true;
@@ -128,7 +128,7 @@ $(function () {
 
 		$("html, body").animate(
 			{
-        scrollTop: Math.ceil($("#" + $(this).data('link')).offset().top - intervaloSubtrairSecao)
+        scrollTop: Math.ceil($("#" + $(this).data('link')).offset().top - intervaloSubtrairSecao) + 1
       }, 
       300
     );

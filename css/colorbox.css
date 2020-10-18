@@ -19,7 +19,7 @@
     ordered & tabbed in a way that represents the nesting of the generated HTML.
 */
 #cboxOverlay{background:#002140;}
-#colorbox{}
+#colorbox{outline: none;}
     #cboxContent{margin-top:32px; overflow:visible;}
         .cboxIframe{background:#fff;}
         #cboxError{padding:50px; border:1px solid #ccc;}
