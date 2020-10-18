@@ -1,5 +1,12 @@
 $(function () {
 
+	let anoAtual = new Date().getFullYear();
+
+  $('.ano_atual').html(anoAtual);
+  $('#anos_java').html(anoAtual - 2013);
+  $('#anos_javascript').html(anoAtual - 2006);
+  $('#anos_html').html(anoAtual - 2006);
+
 	var janela = $(window);
   var $bgHorizontal = $("#bg_horizontal");
   var $bgVertical = $("#bg_vertical");
