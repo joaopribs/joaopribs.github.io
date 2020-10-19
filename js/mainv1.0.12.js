@@ -141,7 +141,7 @@ $(function () {
     );
 	});
 
-	$(".mandar_pro_topo").on("click", function (evento) {
+	$(".mandar_pro_topo").click(function (evento) {
 		evento.preventDefault();
 
 		$("html, body").animate(

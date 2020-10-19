@@ -169,7 +169,7 @@ input, textarea {
     font-size: 0;
 }
 
-.link-logo img {
+.link-logo object {
     max-width: 90%;
     max-height: 60%;
     display: inline-block;
@@ -316,6 +316,11 @@ nav.menu-superior ul li:first-child {
 }
 
 nav.menu-superior ul li:first-child a img {
+    max-height: 1em;
+    max-width: 100%;
+}
+
+nav.menu-superior ul li:first-child svg {
     max-height: 1em;
     max-width: 100%;
 }
@@ -473,7 +478,7 @@ INTERMEDIARIO
         left: 0;
     }
 
-    .link-logo img {
+    .link-logo object {
         max-width: 97%;
         max-height: 100%;
         padding-right: 3%;
